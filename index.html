@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agradecimiento a Nuestro Coordinador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="floating-elements">
+        <div class="floating-shape" style="width: 50px; height: 50px; background: linear-gradient(45deg, #ffd700, transparent); border-radius: 50%;"></div>
+        <div class="floating-shape" style="width: 30px; height: 30px; background: linear-gradient(45deg, #ffd700, transparent); transform: rotate(45deg);"></div>
+        <div class="floating-shape" style="width: 40px; height: 40px; background: linear-gradient(45deg, #ffd700, transparent); border-radius: 50%;"></div>
+    </div>
+
+    <div class="container">
+        <header class="header">
+            <div class="decorative-elements">
+                <span class="star">✦</span>
+                <span class="star">✧</span>
+                <span class="star">✦</span>
+                <span class="star">✧</span>
+            </div>
+            <h1 class="title">¡Gracias Coordinador!</h1>
+            <p class="subtitle">Un reconocimiento especial a nuestro guía en programación</p>
+        </header>
+
+        <div class="video-grid">
+            <div class="video-card">
+                <div class="video-card-content">
+                    <span class="video-icon">🎓</span>
+                    <h3 class="video-title">Mensaje de Alan</h3>
+                    <p class="video-description">Palabras de agradecimiento por toda la enseñanza y paciencia brindada.</p>
+                    <button class="play-button" onclick="playVideo('video1')">Ver Mensaje</button>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <div class="video-card-content">
+                    <span class="video-icon">🌟</span>
+                    <h3 class="video-title">Testimonio de Adrian</h3>
+                    <p class="video-description">Reconocimiento por el apoyo constante y la dedicación en cada clase.</p>
+                    <button class="play-button" onclick="playVideo('video2')">Ver Mensaje</button>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <div class="video-card-content">
+                    <span class="video-icon">🚀</span>
+                    <h3 class="video-title">Agradecimiento de Jhorman</h3>
+                    <p class="video-description">Gratitud por inspirarnos a alcanzar nuevas metas en programación.</p>
+                    <button class="play-button" onclick="playVideo('video3')">Ver Mensaje</button>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <div class="video-card-content">
+                    <span class="video-icon">💝</span>
+                    <h3 class="video-title">Palabras de Luis</h3>
+                    <p class="video-description">Un mensaje especial de reconocimiento por la excelente coordinación.</p>
+                    <button class="play-button" onclick="playVideo('video4')">Ver Mensaje</button>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <div class="video-card-content">
+                    <span class="video-icon">🎯</span>
+                    <h3 class="video-title">Reconocimiento de Karen</h3>
+                    <p class="video-description">Agradecimiento por guiarnos en este increíble viaje de aprendizaje.</p>
+                    <button class="play-button" onclick="playVideo('video5')">Ver Mensaje</button>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <div class="video-card-content">
+                    <span class="video-icon">🏆</span>
+                    <h3 class="video-title">Mensaje de Daya</h3>
+                    <p class="video-description">Palabras de gratitud por ser un excelente mentor y coordinador.</p>
+                    <button class="play-button" onclick="playVideo('video6')">Ver Mensaje</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="thank-you-section">
+            <div class="thank-you-card">
+                <h2 class="thank-you-title">🎉 ¡Muchas Gracias! 🎉</h2>
+                <p class="thank-you-text">
+                    Querido Coordinador, tu dedicación, paciencia y pasión por enseñar han sido fundamentales 
+                    en nuestro crecimiento como programadores. Cada línea de código que escribimos lleva un 
+                    poco de tu sabiduría y guía. ¡Eres el mejor coordinador que podríamos haber tenido!
+                </p>
+                <div class="signature">
+                    <p>Con cariño y admiración,</p>
+                    <p><strong>Todo el equipo de programación</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-player" id="videoPlayer">
+        <div class="video-container">
+            <button class="close-button" onclick="closeVideo()">×</button>
+            <video id="mainVideo" controls>
+                <source src="" type="video/mp4">
+                Tu navegador no soporta el elemento video.
+            </video>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
